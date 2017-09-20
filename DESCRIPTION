@@ -4,8 +4,7 @@ Title: WeMo Switch Smart Plug Utilities
 Version: 0.1.0
 Author: Simon Garnier
 Maintainer: Simon Garnier <garnier@njit.edu>
-Description: This package provides a set of utility functions to interact with 
-    a WeMo Switch smart plug. 
+Description: Set of utility functions to interact with WeMo Switch smart plugs. 
 License: GPL-3
 URL: https://github.com/swarm-lab/magicLamp
 Encoding: UTF-8
