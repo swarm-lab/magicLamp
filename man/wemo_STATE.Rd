@@ -22,6 +22,12 @@ A \code{\link[tibble]{tibble}} with two columns:
 \description{
 Check the ON/OFF state of WeMo Switch smart plugs.
 }
+\examples{
+\dontrun{
+wemo_STATE("192.0.1.1")
+}
+
+}
 \author{
 Simon Garnier, \email{garnier@njit.edu}
 }

@@ -24,6 +24,12 @@ A \code{\link[tibble]{tibble}} with two columns:
 \description{
 Automatically detects the port used by WeMo Switch smart plugs.
 }
+\examples{
+\dontrun{
+wemo_PORT("192.0.1.1")
+}
+
+}
 \author{
 Simon Garnier, \email{garnier@njit.edu}
 }

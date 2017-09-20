@@ -15,6 +15,11 @@
 #'
 #' @author Simon Garnier, \email{garnier@@njit.edu}
 #'
+#' @examples
+#' \dontrun{
+#' wemo_ON("192.0.1.1")
+#' }
+#'
 #' @export
 wemo_ON <- function(ip) {
   tib <- wemo_PORT(ip)
@@ -53,6 +58,11 @@ wemo_ON <- function(ip) {
 #'   }
 #'
 #' @author Simon Garnier, \email{garnier@@njit.edu}
+#'
+#' @examples
+#' \dontrun{
+#' wemo_OFF("192.0.1.1")
+#' }
 #'
 #' @export
 wemo_OFF <- function(ip) {

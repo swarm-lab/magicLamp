@@ -17,6 +17,11 @@
 #'
 #' @author Simon Garnier, \email{garnier@@njit.edu}
 #'
+#' @examples
+#' \dontrun{
+#' wemo_PORT("192.0.1.1")
+#' }
+#'
 #' @export
 wemo_PORT <- function(ip, timeout = 0.1) {
   tib <- expand.grid(ip = factor(ip), port = c(49152, 49153, 49154, 49155))
