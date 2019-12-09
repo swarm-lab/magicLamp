@@ -25,7 +25,7 @@
 #' @export
 wemo_PORT <- function(ip, timeout = 0.1) {
   tib <- expand.grid(ip = factor(ip), port = c(49152, 49153, 49154, 49155))
-  tib$url <- paste0(tib$ip, ":", tib$port)
+  tib$url <- paste0("http://", tib$ip, ":", tib$port)
   tib$test <- mapply(function(url, handle) {
     tryCatch(httr::GET(url, httr::timeout(timeout))$status_code, error = function(e) 500)
   }, url = tib$url) == 404
